@@ -1,0 +1,76 @@
+2020-06-08T21:41:08.766Z [grades-control-api] info: API Started!
+2020-06-08T21:41:14.138Z [grades-control-api] info: POST /grade - {"id":49,"student":"Rodrigo Waldow","subject":"01 - JavaScript","type":"EAD","value":15}
+2020-06-08T23:13:28.186Z [grades-control-api] info: API Started!
+2020-06-08T23:13:38.681Z [grades-control-api] info: PUT /grade - {"id":49,"student":"Rodrigo Waldow","subject":"01 - JavaScript","type":"Desafio","value":20}
+2020-06-08T23:15:09.793Z [grades-control-api] info: PUT /grade - Cannot set property 'student' of undefined
+2020-06-08T23:17:14.404Z [grades-control-api] info: DELETE /grade/:id - 49
+2020-06-08T23:18:26.582Z [grades-control-api] info: GET /grade/:id - {"id":48,"student":"Rodrigo Branas","subject":"04 - MongoDB","type":"Desafio","value":45,"timestamp":"2020-05-19T18:21:25.284Z"}
+2020-06-08T23:18:32.636Z [grades-control-api] info: GET /grade/:id
+2020-06-08T23:18:36.562Z [grades-control-api] info: GET /grade/:id - {"id":48,"student":"Rodrigo Branas","subject":"04 - MongoDB","type":"Desafio","value":45,"timestamp":"2020-05-19T18:21:25.284Z"}
+2020-06-08T23:20:44.522Z [grades-control-api] info: POST /grade/total - Invalid status code: 75
+2020-06-08T23:21:24.316Z [grades-control-api] info: API Started!
+2020-06-08T23:23:28.758Z [grades-control-api] info: API Started!
+2020-06-08T23:24:26.351Z [grades-control-api] info: POST /grade/total - 75
+2020-06-08T23:25:51.897Z [grades-control-api] info: API Started!
+2020-06-08T23:25:58.160Z [grades-control-api] info: GET /grade/:id
+2020-06-08T23:27:13.942Z [grades-control-api] info: API Started!
+2020-06-08T23:27:15.607Z [grades-control-api] info: POST /grade/total - 75
+2020-06-08T23:27:37.949Z [grades-control-api] info: API Started!
+2020-06-08T23:28:20.761Z [grades-control-api] info: API Started!
+2020-06-08T23:28:48.098Z [grades-control-api] info: API Started!
+2020-06-08T23:32:53.253Z [grades-control-api] info: API Started!
+2020-06-08T23:32:56.303Z [grades-control-api] info: POST /grade/average - grades.count is not a function
+2020-06-08T23:33:15.972Z [grades-control-api] info: API Started!
+2020-06-08T23:33:54.221Z [grades-control-api] info: API Started!
+2020-06-08T23:34:00.002Z [grades-control-api] info: POST /grade/average - 36.5
+2020-06-08T23:40:20.679Z [grades-control-api] info: API Started!
+2020-06-08T23:43:48.718Z [grades-control-api] info: API Started!
+2020-06-08T23:44:01.177Z [grades-control-api] info: API Started!
+2020-06-08T23:44:37.684Z [grades-control-api] info: API Started!
+2020-06-08T23:44:41.883Z [grades-control-api] error: GET /account
+2020-06-08T23:45:34.405Z [grades-control-api] info: API Started!
+2020-06-08T23:45:35.991Z [grades-control-api] error: GET /account
+2020-06-08T23:45:47.345Z [grades-control-api] info: API Started!
+2020-06-08T23:45:50.247Z [grades-control-api] error: GET /account
+2020-06-08T23:47:47.551Z [grades-control-api] info: API Started!
+2020-06-08T23:47:50.489Z [grades-control-api] info: POST /grade/top - req is not defined
+2020-06-08T23:48:03.653Z [grades-control-api] info: API Started!
+2020-06-08T23:48:06.532Z [grades-control-api] info: POST /grade/top - sumGrades is not iterable
+2020-06-08T23:48:21.814Z [grades-control-api] info: API Started!
+2020-06-08T23:54:52.280Z [grades-control-api] info: API Started!
+2020-06-08T23:55:29.725Z [grades-control-api] info: POST /grade/top - [{"id":48,"student":"Rodrigo Branas","subject":"04 - MongoDB","type":"Desafio","value":45,"timestamp":"2020-05-19T18:21:25.284Z"},{"id":12,"student":"Loiane Groner","subject":"04 - MongoDB","type":"Desafio","value":44,"timestamp":"2020-05-19T18:21:25.025Z"},{"id":36,"student":"Roberto Achar","subject":"04 - MongoDB","type":"Desafio","value":43,"timestamp":"2020-05-19T18:21:25.204Z"}]
+2020-06-08T23:55:51.127Z [grades-control-api] info: API Started!
+2020-06-08T23:56:05.022Z [grades-control-api] info: POST /grade/top - [{"id":48,"student":"Rodrigo Branas","subject":"04 - MongoDB","type":"Desafio","value":45,"timestamp":"2020-05-19T18:21:25.284Z"},{"id":12,"student":"Loiane Groner","subject":"04 - MongoDB","type":"Desafio","value":44,"timestamp":"2020-05-19T18:21:25.025Z"},{"id":36,"student":"Roberto Achar","subject":"04 - MongoDB","type":"Desafio","value":43,"timestamp":"2020-05-19T18:21:25.204Z"}]
+2020-06-08T23:56:26.279Z [grades-control-api] info: API Started!
+2020-06-08T23:56:31.403Z [grades-control-api] info: POST /grade/top - [{"id":48,"student":"Rodrigo Branas","subject":"04 - MongoDB","type":"Desafio","value":45,"timestamp":"2020-05-19T18:21:25.284Z"},{"id":12,"student":"Loiane Groner","subject":"04 - MongoDB","type":"Desafio","value":44,"timestamp":"2020-05-19T18:21:25.025Z"},{"id":36,"student":"Roberto Achar","subject":"04 - MongoDB","type":"Desafio","value":43,"timestamp":"2020-05-19T18:21:25.204Z"}]
+2020-06-09T00:00:21.881Z [grades-control-api] info: POST /grade/average - 10.75
+2020-06-09T00:00:55.810Z [grades-control-api] info: POST /grade/top - [{"id":31,"student":"Roberto Achar","subject":"03 - React","type":"Trabalho Prático","value":27,"timestamp":"2020-05-19T18:21:25.171Z"},{"id":19,"student":"Roberta Arcoverde","subject":"03 - React","type":"Trabalho Prático","value":7,"timestamp":"2020-05-19T18:21:25.072Z"},{"id":43,"student":"Rodrigo Branas","subject":"03 - React","type":"Trabalho Prático","value":6,"timestamp":"2020-05-19T18:21:25.253Z"}]
+2020-06-09T00:01:32.471Z [grades-control-api] info: POST /grade/average - 27
+2020-06-09T00:02:29.289Z [grades-control-api] info: POST /grade/total - 47
+2020-06-09T00:03:20.494Z [grades-control-api] info: POST /grade - {"id":50,"student":"Roberto Achar","subject":"03 - React","type":"Fórum","value":10}
+2020-06-09T00:03:52.920Z [grades-control-api] info: POST /grade/total - 70
+2020-06-09T00:05:10.674Z [grades-control-api] info: PUT /grade - {"id":33,"value":15}
+2020-06-09T00:06:54.830Z [grades-control-api] info: PUT /grade - {"id":33,"student":"Roberto Achar","subject":"01 - JavaScript","type":"Desafio","value":15,"timestamp":"2020-05-19T18:21:25.184Z"}
+2020-06-09T00:07:33.071Z [grades-control-api] info: POST /grade/average - 13
+2020-06-09T00:08:02.161Z [grades-control-api] info: DELETE /grade/:id - 32
+2020-06-09T00:08:29.903Z [grades-control-api] info: POST /grade/average - 26
+2020-06-09T00:08:54.417Z [grades-control-api] info: GET /grade/:id - {"id":43,"student":"Rodrigo Branas","subject":"03 - React","type":"Trabalho Prático","value":6,"timestamp":"2020-05-19T18:21:25.253Z"}
+2020-06-09T00:12:43.479Z [grades-control-api] info: POST /grade/average - 27
+2020-06-09T17:45:48.877Z [grades-control-api] info: API Started!
+2020-06-09T17:46:55.614Z [grades-control-api] info: API Started!
+2020-06-09T17:47:18.147Z [grades-control-api] info: API Started!
+2020-06-09T17:47:46.016Z [grades-control-api] info: API Started!
+2020-06-09T17:50:57.334Z [grades-control-api] info: API Started!
+2020-06-09T17:51:19.416Z [grades-control-api] info: API Started!
+2020-06-09T17:51:37.240Z [grades-control-api] info: API Started!
+2020-06-09T17:52:01.151Z [grades-control-api] info: API Started!
+2020-06-09T17:52:24.431Z [grades-control-api] info: API Started!
+2020-06-09T17:53:33.259Z [grades-control-api] info: API Started!
+2020-06-09T17:55:12.399Z [grades-control-api] info: API Started!
+2020-06-09T17:57:03.910Z [grades-control-api] info: API Started!
+2020-06-09T17:57:21.165Z [grades-control-api] info: API Started!
+2020-06-09T17:58:22.328Z [grades-control-api] info: API Started!
+2020-06-09T17:59:36.285Z [grades-control-api] info: API Started!
+2020-06-09T18:00:59.869Z [grades-control-api] info: API Started!
+2020-06-09T18:01:26.781Z [grades-control-api] info: POST /grade - {"id":51,"student":"Roberto Achar","subject":"03 - React","type":"Fórum","value":10}
+2020-06-09T18:07:52.118Z [grades-control-api] info: API Started!
