@@ -1,5 +1,4 @@
 # Bootcamp de Desenvolvedor Full Stack
-## Desafio Módulo 2
 
 ### Módulo com ênfase no backend com o desenvolvimento de API's utilizando o NODEJS. 
 
